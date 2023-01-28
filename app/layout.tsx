@@ -1,4 +1,5 @@
 import './globals.css'
+import  style  from './page.module.css'
 
 export default function RootLayout({
   children,
@@ -12,7 +13,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+      <h1 className={style.my}>To-Do App</h1>  
+      {children}</body>
     </html>
   )
 }
