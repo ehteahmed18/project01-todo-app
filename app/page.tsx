@@ -15,7 +15,8 @@ export default function Page(){
       <Addtodo />
       </div>
       <div>
-      <TodoList></TodoList>
+        {/* @ts-ignore */}
+      <TodoList />
       </div>
 </>
   )
